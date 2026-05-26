@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# portfolio reference and resume source
+/Portfolio/
+/Bashar V. Ismail_Full Stack Developer.pdf
