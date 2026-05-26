@@ -16,7 +16,7 @@ const BOOT_LINES = [
   { t: 1620, v: "ready in 1.62s · welcome.", k: "rdy" },
 ];
 
-const TOTAL_DURATION = 5000;
+const TOTAL_DURATION = 1500;
 
 export default function BootSequence({ onDone }: { onDone: () => void }) {
   const [lines, setLines] = useState<typeof BOOT_LINES>([]);

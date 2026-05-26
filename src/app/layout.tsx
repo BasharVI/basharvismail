@@ -12,6 +12,30 @@ export const metadata: Metadata = {
   title: "Bashar V Ismail – Full Stack Developer",
   description:
     "Full Stack Developer with 4+ years of experience. MERN Stack specialist — React.js, Node.js, MongoDB, Docker. 1 year UAE experience. Available for immediate joining.",
+  icons: {
+    icon: "/forfavicon.png",
+  },
+  openGraph: {
+    title: "Bashar V Ismail – Full Stack Developer",
+    description: "MERN Stack · React · Node.js · MongoDB · 4+ yrs · UAE experience. Open to new opportunities.",
+    url: "https://iambashar.dev",
+    siteName: "iambashar.dev",
+    images: [
+      {
+        url: "/foropengraph.png",
+        width: 1200,
+        height: 630,
+        alt: "Bashar V Ismail – Full Stack Developer",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bashar V Ismail – Full Stack Developer",
+    description: "MERN Stack · React · Node.js · MongoDB · 4+ yrs · UAE experience. Open to new opportunities.",
+    images: ["/foropengraph.png"],
+  },
 };
 
 export default function RootLayout({
