@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "basharismail.pro",
     images: [
       {
-        url: "/foropengraph.png",
+        url: "/foropengraph_low.png",
         width: 1200,
         height: 630,
         alt: "Bashar V Ismail – Full Stack Developer",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bashar V Ismail – Full Stack Developer",
     description: "MERN Stack · React · Node.js · MongoDB · 4+ yrs · UAE experience. Open to new opportunities.",
-    images: ["/foropengraph.png"],
+    images: ["/foropengraph_low.png"],
   },
 };
 
