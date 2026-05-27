@@ -11,6 +11,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://basharismail.pro"),
   title: "Bashar V Ismail – Full Stack Developer",
   description:
     "Full Stack Developer with 4+ years of experience. MERN Stack specialist — React.js, Node.js, MongoDB, Docker. 1 year UAE experience. Available for immediate joining.",
@@ -20,8 +21,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Bashar V Ismail – Full Stack Developer",
     description: "MERN Stack · React · Node.js · MongoDB · 4+ yrs · UAE experience. Open to new opportunities.",
-    url: "https://iambashar.dev",
-    siteName: "iambashar.dev",
+    url: "https://basharismail.pro",
+    siteName: "basharismail.pro",
     images: [
       {
         url: "/foropengraph.png",
